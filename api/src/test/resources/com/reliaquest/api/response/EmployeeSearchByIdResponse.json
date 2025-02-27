@@ -1,0 +1,11 @@
+{
+    "data": {
+            "id": "9a55c532-7457-4fe3-a8f4-6ea8a957bdb3",
+            "employee_name": "Dr. Lindsy Anderson",
+            "employee_salary": 59249,
+            "employee_age": 49,
+            "employee_title": "National IT Orchestrator",
+            "employee_email": "bytecard@company.com"
+    },
+    "status": "Successfully processed request."
+}

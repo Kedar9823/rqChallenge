@@ -1,0 +1,11 @@
+{
+    "data": {
+        "id": "5d755f24-be1a-4e40-aa9d-d65062d7f019",
+        "employee_name": "John Doe",
+        "employee_salary": 10000,
+        "employee_age": 27,
+        "employee_title": "Senior Software Engineer",
+        "employee_email": "holdlamis@company.com"
+    },
+    "status": "Successfully processed request."
+}

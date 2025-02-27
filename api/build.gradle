@@ -1,0 +1,44 @@
+plugins {
+    id 'project-conventions'
+}
+
+dependencies {
+
+	// Spring webflux
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-webflux', version: '3.4.2'
+
+	// Spring aspects
+	implementation group: 'org.springframework', name: 'spring-aspects', version: '6.2.3'
+	
+	// Spring validation
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-validation', version: '3.4.2'
+	
+	// Cache
+	implementation group: 'com.github.ben-manes.caffeine', name: 'caffeine', version: '3.1.8'
+	implementation group: 'org.springframework.boot', name: 'spring-boot-starter-cache', version: '3.4.2'
+
+    // Jakarta Validation
+	implementation group: 'jakarta.validation', name: 'jakarta.validation-api', version: '3.0.2'
+
+	// Test
+    // Spring Boot Testing Dependencies
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testImplementation 'org.springframework.boot:spring-boot-starter-webflux'
+
+	// Apache Commons IO for FileUtils
+  	testImplementation group: 'commons-io', name: 'commons-io', version: '2.18.0'
+
+    // WireMock
+    testImplementation 'com.github.tomakehurst:wiremock-jre8-standalone:2.35.0'
+
+    // JUnit 5
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+
+	// Reactor test
+	testImplementation group: 'io.projectreactor', name: 'reactor-test', version: '3.1.0.RELEASE'
+	
+}
+
+springBoot {
+    mainClass = 'com.reliaquest.api.ApiApplication'
+}
